@@ -15,9 +15,9 @@ class String
   end
 
   def count_sentences
-    self.split("[.?!]")
-    @count = 0 
-    if self.contains
+    @array = self.split("[.?!]")
+    @array.count()
+    
     
   end
   
